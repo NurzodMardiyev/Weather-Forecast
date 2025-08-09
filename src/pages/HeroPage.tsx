@@ -1,8 +1,6 @@
 import Container from "../components/Container";
 import umbrella from "../../public/images/umbrella.png";
 import { Link } from "react-router-dom";
-import { useContext } from "react";
-import { WeatherContext } from "../features/ContextApi";
 
 export default function HeroPage() {
   return (
