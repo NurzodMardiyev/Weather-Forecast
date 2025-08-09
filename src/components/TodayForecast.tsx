@@ -1,4 +1,3 @@
-import { TiWeatherPartlySunny } from "react-icons/ti";
 import { useWeekForecast } from "../features/queries";
 
 export type ForecastItem = {

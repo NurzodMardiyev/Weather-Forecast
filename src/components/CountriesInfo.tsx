@@ -8,7 +8,6 @@ import {
 } from "react-icons/wi";
 import TodayForecast from "./TodayForecast";
 import CitiesWeather from "./CitiesWeather";
-import SearchForm from "./SearchForm";
 import { WeatherContext } from "../features/ContextApi";
 import { Form } from "antd";
 import { searchCity } from "../features/queries";

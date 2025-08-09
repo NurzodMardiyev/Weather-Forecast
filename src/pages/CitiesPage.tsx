@@ -1,16 +1,10 @@
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 import CitiesWeather from "../components/CitiesWeather";
 import DayForecast from "../components/DayForecast";
-import SearchForm from "../components/SearchForm";
-import TodayForecast from "../components/TodayForecast";
-import {
-  searchCity,
-  useSearchForCity,
-  useWeekForecast,
-} from "../features/queries";
+import { searchCity, useWeekForecast } from "../features/queries";
 import CityForecast from "../components/CityForecast";
 import { Form } from "antd";
-import { useMutation, useQuery } from "react-query";
+import { useMutation } from "react-query";
 
 export default function CitiesPage() {
   const { data, isLoading } = useWeekForecast();

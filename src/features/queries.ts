@@ -3,7 +3,6 @@ import { useContext } from "react";
 import axios from "axios";
 import { WeatherContext } from "./ContextApi";
 import { useQuery } from "react-query";
-const api_key = import.meta.env.VITE_API_KEY;
 
 export const useWeekForecast = () => {
   const { location } = useContext(WeatherContext)!;
@@ -17,7 +16,7 @@ export const useWeekForecast = () => {
       );
       return data;
     },
-    enabled: !!location && !! api_key, // location mavjud bo'lganda ishlaydi
+    enabled: !!location , // location mavjud bo'lganda ishlaydi
   });
 };
 

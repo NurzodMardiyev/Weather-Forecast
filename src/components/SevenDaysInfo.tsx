@@ -1,4 +1,3 @@
-import { useQuery } from "react-query";
 import DayForecast from "./DayForecast";
 import { useWeekForecast } from "../features/queries";
 import { useMemo } from "react";

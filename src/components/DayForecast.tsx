@@ -1,6 +1,3 @@
-import { useMemo } from "react";
-import { useWeekForecast } from "../features/queries";
-
 type Weather = {
   main: string;
   icon: string;
