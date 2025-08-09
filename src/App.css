@@ -1,0 +1,22 @@
+.ant-segmented {
+  background: #111422 !important;
+  color: white !important;
+  border: none;
+}
+
+.ant-segmented:hover {
+  color: white !important;
+}
+
+.ant-segmented-item-label {
+  color: white !important;
+}
+
+.ant-segmented .ant-segmented-item-selected {
+  background-color: #131d31 !important;
+  color: white !important;
+}
+
+.ant-segmented .ant-segmented-thumb {
+  background-color: #131d31 !important;
+}
